@@ -100,10 +100,10 @@
 ## commit
 
 - 사용 시나리오
-  1. 현재 상태
-  2. ~상태로 만들고 싶다
+  1. 현재 staged 상태인 마크다운 파일을 commit하고 싶다.
+    ![status_3](./img/status_3.PNG)
   3. 이를 위해 이 명령어 사용했다.
-  4. 그 결과
+    ![commit_1](./img/commit_1.PNG)
    
 - 명령어 설명
   - `$ git commit`  
