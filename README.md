@@ -215,12 +215,16 @@
 
 - 사용 시나리오
   1. 현재 두가지 branch에서 각각 작업을 해서 commit을 했다.
-  2. branch2와 main을 병합하고 싶다.
+     - main 브랜치
+      ![rebase_1](./img/rebase_1.PNG)
+     - branch2 브랜치
+      ![rebase_2](./img/rebase_2.PNG)
+  2. branch2를 main뒤에 병합하고 싶다.
   3. 이를 위해 이 명령어 사용했다.
-     - 현재 작업하고 있는 branch
-     - branch를 병합
+    ![rebase_3](./img/rebase_3.PNG)
   4. 그 결과
-   
+    ![rebase_4](./img/rebase_4.PNG)
+
 - 명령어 설명
   - branch를 병합할 때 사용하는 명령어
   - `$ git rebase <branch2>`: **branch2**와 현재 branch의 공통된 commit부터 현재 branch까지 commit한 것들을 branch2 뒤에 병합해 준다.
@@ -357,7 +361,7 @@
 |[init](#init)| O |
 |[log](#log)| O |
 |[pull](#pull)| O |
-|[rebase](#rebase)| x |
+|[rebase](#rebase)| O |
 |[remote](#remote)| O |
 |[reset](#reset)| O |
 |[status](#status)| O |
