@@ -195,10 +195,10 @@
 ## pull
 
 - 사용 시나리오
-  1. 현재 상태
-  2. ~상태로 만들고 싶다
+  1. 방금 GitHub에서 README.md파일을 수정했다.
+  2. 로컬 저장소에 변경된 파일들을 모두 가져오고 싶다.
   3. 이를 위해 이 명령어 사용했다.
-  4. 그 결과
+    ![pull_1](./img/pull_1.PNG)
    
 - 명령어 설명
   -  `$ git pull <remote>`: 원격 저장소에서 데이터를 모두 가져와고,  
@@ -341,11 +341,11 @@
 
 | Command | 사용여부 |
 | :-------: | :-------: |
-|[add](#add)| x |
+|[add](#add)| O |
 |[branch](#branch)| x |
 |[checkout](#checkout)| x |
 |[clone](#clone)| O |
-|[commit](#commit)| x |
+|[commit](#commit)| O |
 |[config](#config)| O |
 |[init](#init)| O |
 |[log](#log)| x |
@@ -353,7 +353,7 @@
 |[rebase](#rebase)| x |
 |[remote](#remote)| O |
 |[reset](#reset)| x |
-|[status](#status)| x |
+|[status](#status)| O |
 |[tag](#tag)| x |
 
 <br>
