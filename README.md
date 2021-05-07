@@ -227,9 +227,12 @@
 ## push
 
 - 사용 시나리오
-  1. 방금 GitHub에서 README.md파일을 수정해 commit했다.
-  2. 로컬 저장소에 변경된 파일들을 모두 가져오고 싶다.
+  1. 방금 로컬에서 마크다운 파일을 수정해 commit했다.
+  2. commit한 것들을 GitHub의 원격 저장소에 저장하고 싶다.
   3. 이를 위해 이 명령어 사용했다.
+    ![push_2](./img/push_2.PNG)
+  4. 그 결과
+    ![push_1](./img/push_1.PNG)
    
 - 명령어 설명
   
@@ -386,7 +389,9 @@
 |[config](#config)| O |
 |[init](#init)| O |
 |[log](#log)| O |
+|[merge](#merge)| O |
 |[pull](#pull)| O |
+|[push](#push)| O |
 |[rebase](#rebase)| O |
 |[remote](#remote)| O |
 |[reset](#reset)| O |
