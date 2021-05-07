@@ -249,8 +249,8 @@
     ![push_1](./img/push_1.PNG)
    
 - 명령어 설명
-  - `$ git push`: GitHub의 경우 **Username**과 **Password**를 입력해야 한다.
-  - 로컬에서 작업하여 commit한 것들을 원격 저장소에 저장 해주는 명령어
+  - `$ git push`: 로컬에서 작업하여 commit한 것들을 원격 저장소에 저장 해주는 명령어
+  - GitHub의 경우 **Username**과 **Password**를 입력해야 한다.
   
 <br>
 
