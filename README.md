@@ -201,13 +201,21 @@
      - main 브랜치
       ![merge_1](./img/merge_1.PNG)
      - branch2 브랜치
-      
-  2. branch2를 main를 하나로 병합하고 싶다.
+      ![merge_2](./img/merge_2.PNG)
+  2. branch2와 main를 하나로 병합하고 싶다.
   3. 이를 위해 이 명령어 사용했다.
+    ![merge_3](./img/merge_3.PNG)
   4. 그 결과
+    ![merge_4](./img/merge_4.PNG)
    
 - 명령어 설명
+  - `$ git merge <branch>`: 현재 branch와 특정 branch를 하나로 병합
+  - 두 branch를 병합한 후 새로운 commit을 만든다. (rebase와 차이점)
+
 - 유용한 옵션들
+  | Options | Description |
+  | ------- | :---------- |
+  | `--abort` | merge를 하다 충돌이 발생했을 때, merge 하기 전으로 되돌린다. |
   
 <br>
 
