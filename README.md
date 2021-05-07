@@ -238,7 +238,7 @@
 - 사용 시나리오
   1. 현재 GitHub의 원격 저장소를 origin이라는 이름으로 사용하고 있다.
     ![remote_1](./img/remote_1.PNG)
-  2. 현재 추적하고 있는 원격 저장소의 이름을 변경하고 싶다.
+  2. 현재 추적하고 있는 원격 저장소의 이름을 **GitHub**로 변경하고 싶다.
   3. 이를 위해 이 명령어 사용했다.
     ![remote_2](./img/remote_2.PNG)
    
@@ -288,10 +288,9 @@
 ## status
 
 - 사용 시나리오
-  1. 현재 상태
-  2. ~상태로 만들고 싶다
+  1. 방금 새로운 마크다운 파일을 만들었다.
+  2. 변경된 파일들의 목록을 확인하고 싶다.
   3. 이를 위해 이 명령어 사용했다.
-  4. 그 결과
    
 - 명령어 설명
   - 변경된 파일들의 목록을 확인하는 명령어
@@ -339,20 +338,20 @@
 
 | Command | 사용여부 |
 | :-------: | :-------: |
-|[add](#add)| O |
-|[branch](#branch)| O |
-|[checkout](#checkout)| O |
+|[add](#add)| x |
+|[branch](#branch)| x |
+|[checkout](#checkout)| x |
 |[clone](#clone)| O |
-|[commit](#commit)| O |
+|[commit](#commit)| x |
 |[config](#config)| O |
 |[init](#init)| O |
-|[log](#log)| O |
-|[pull](#pull)| O |
-|[rebase](#rebase)| O |
+|[log](#log)| x |
+|[pull](#pull)| x |
+|[rebase](#rebase)| x |
 |[remote](#remote)| O |
-|[reset](#reset)| O |
-|[status](#status)| O |
-|[tag](#tag)| O |
+|[reset](#reset)| x |
+|[status](#status)| x |
+|[tag](#tag)| x |
 
 <br>
 
