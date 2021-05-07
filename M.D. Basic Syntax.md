@@ -246,9 +246,9 @@
     `![이미지 설명](이미지 경로 "Optional title")`
     
     ```
-    ![바다 사진](OceanBeach.jpg "Ocean Beach")
+    ![바다 사진1](OceanBeach.jpg "Ocean Beach")
     ```
-    ![바다 사진](OceanBeach.jpg "Ocean Beach")
+    ![바다 사진1](OceanBeach.jpg "Ocean Beach")
 
 - 아래와 같이 이미지에 링크를 추가할 수도 있다.
     
