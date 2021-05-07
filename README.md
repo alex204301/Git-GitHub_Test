@@ -199,7 +199,7 @@
 - 사용 시나리오
   1. 현재 두가지 branch에서 각각 작업을 해서 commit을 했다.
      - main 브랜치
-      
+      ![merge_1](./img/merge_1.PNG)
      - branch2 브랜치
       
   2. branch2를 main를 하나로 병합하고 싶다.
