@@ -171,10 +171,9 @@
 ## log
 
 - 사용 시나리오
-  1. 현재 상태
-  2. ~상태로 만들고 싶다
-  3. 이를 위해 이 명령어 사용했다.
-  4. 그 결과
+  1. 과거에 했던 commit들 중 최근 4개를 확인하고 싶다.
+  2. 이를 위해 이 명령어 사용했다.
+    ![log_1](./img/log_1.PNG)
    
 - 명령어 설명
   - commit history를 조회하는 명령어
@@ -348,8 +347,8 @@
 |[commit](#commit)| O |
 |[config](#config)| O |
 |[init](#init)| O |
-|[log](#log)| x |
-|[pull](#pull)| x |
+|[log](#log)| O |
+|[pull](#pull)| O |
 |[rebase](#rebase)| x |
 |[remote](#remote)| O |
 |[reset](#reset)| x |
