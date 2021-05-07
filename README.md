@@ -35,10 +35,12 @@
 ## branch
 
 - 사용 시나리오
-  1. 현재 상태
-  2. ~상태로 만들고 싶다
-  3. 이를 위해 이 명령어 사용했다.
-  4. 그 결과
+  1. `branch2`라는 새로운 branch를 만들고 싶다.
+  2. 이를 위해 이 명령어 사용했다.
+     - 현재 branch 목록을 확인
+      ![branch_1](./img/branch_1.PNG)
+     - branch2라는 새로운 branch 생성
+      ![branch_2](./img/branch_2.PNG)
    
 - 명령어 설명
   - branch를 관리하는 명령어
@@ -60,10 +62,11 @@
 ## checkout
 
 - 사용 시나리오
-  1. 현재 상태
-  2. ~상태로 만들고 싶다
+  1. 현재 main이라는 branch에서 작업하고 있다.
+    ![branch_3](./img/branch_3.PNG)
+  2. branch2에서 작업을 하고 싶다.
   3. 이를 위해 이 명령어 사용했다.
-  4. 그 결과
+    ![checkout_1](./img/checkout_1.PNG)
    
 - 명령어 설명
   - Git은 `HEAD`라는 지금 작업하는 branch를 가리키는 특수한 보인터가 있다.
