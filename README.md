@@ -195,7 +195,7 @@
 ## pull
 
 - 사용 시나리오
-  1. 방금 GitHub에서 README.md파일을 수정했다.
+  1. 방금 GitHub에서 README.md파일을 수정해 commit했다.
   2. 로컬 저장소에 변경된 파일들을 모두 가져오고 싶다.
   3. 이를 위해 이 명령어 사용했다.
     ![pull_1](./img/pull_1.PNG)
