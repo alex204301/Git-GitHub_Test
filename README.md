@@ -264,7 +264,7 @@
 - 사용 시나리오
   1. 방금 마크다운 파일을 업데이트하여 commit을 하였다.
     ![reset_1](./img/reset_1.PNG)
-  2. 그런데 이 commit을 완전히 버리고 이전 상태로 되돌리고 싶다.
+  2. 마크다운 update라는 commit을 완전히 버리고 이전 상태로 되돌리고 싶다.
   3. 이를 위해 이 명령어 사용했다.
     ![reset_2](./img/reset_2.PNG)
   4. 그 결과
@@ -354,9 +354,9 @@
 |[pull](#pull)| O |
 |[rebase](#rebase)| x |
 |[remote](#remote)| O |
-|[reset](#reset)| x |
+|[reset](#reset)| O |
 |[status](#status)| O |
-|[tag](#tag)| x |
+|[tag](#tag)| O |
 
 <br>
 
