@@ -347,8 +347,8 @@
 | Command | 사용여부 |
 | :-------: | :-------: |
 |[add](#add)| O |
-|[branch](#branch)| x |
-|[checkout](#checkout)| x |
+|[branch](#branch)| O |
+|[checkout](#checkout)| O |
 |[clone](#clone)| O |
 |[commit](#commit)| O |
 |[config](#config)| O |
